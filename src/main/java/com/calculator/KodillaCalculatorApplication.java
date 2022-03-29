@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class KodillaCalculatorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KodillaCalculatorApplication.class, args);
-    }
+//        SpringApplication.run(KodillaCalculatorApplication.class, args);
 
+        Calculator calculator = new Calculator();
+        calculator.addAtoB(3, 39);
+        calculator.divideAfromB(97, 494);
+    }
 }
